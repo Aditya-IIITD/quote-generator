@@ -2,7 +2,7 @@ import { IS_SUCCESS, IS_ERROR, IS_LOADING } from "../Actions/quoteAction";
 
 const INITIAL_STATE = {
   Loading: false,
-  quote: {},
+  quote: [],
   err: null,
 };
 
@@ -17,7 +17,7 @@ function QuoteReducer(state = INITIAL_STATE, action) {
       return {
         ...state,
         Loading: false,
-        quote: { ...action.quote },
+        quote: action.quote,
         err: null,
       };
     case IS_ERROR:
