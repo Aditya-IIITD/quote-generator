@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  background-color: #5629ab;
+  justify-content: space-between;
+  padding: 0 50px;
+  color: white;
+}
+
+.container > h1 {
+  font-size: 28px;
+}
+
+.bookmark {
+  font-weight: 100;
+  margin-right: 40px;
+}
