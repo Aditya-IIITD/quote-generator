@@ -8,9 +8,16 @@
 
 .container > h1 {
   font-size: 28px;
+  cursor: pointer;
 }
 
 .bookmark {
   font-weight: 100;
   margin-right: 40px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
