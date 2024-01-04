@@ -1,6 +1,32 @@
 .container {
-  height: 350px;
+  min-height: 400px;
   width: 50%;
-  background-color: gray;
   margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.dropdwn {
+  width: 150px;
+  height: 30px;
+  outline: none;
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.btn {
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #009c51;
+  box-shadow: 5px 5px 12px -2px black;
+  cursor: pointer;
 }
